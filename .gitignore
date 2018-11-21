@@ -1,0 +1,7 @@
+/lib
+/dist
+/prosemirror
+/venv
+/node_modules
+*.egg-info
+package-lock.json
