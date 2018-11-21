@@ -17,12 +17,19 @@ How to use
 
 2. In your python code, import the two included functions with:
 
-```
-from prosemirror import create_doc, transform_doc
-```
 
-First use `doc = create_doc(doc_data, schema_spec)` to create a Document object.
+    from prosemirror import create_doc, transform_doc
 
-Then use `updated_doc = transform_doc(steps_data, doc)` to create a new Document object with the given steps applied.
+Then create a Document object:
 
-Use `updated_doc.toJSON()` to get the JSON version of the updated document.
+    doc = create_doc(doc_data, schema_spec)
+
+
+Thereafter create an updated Document object with the given steps applied:
+
+    updated_doc = transform_doc(steps_data, doc)
+
+To get the JSON version of a Document object, simply use the builtin toJSON method:
+
+    updated_doc.toJSON()
+
