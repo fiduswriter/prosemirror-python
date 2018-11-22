@@ -36,17 +36,18 @@ To get the JSON version of a Document object, simply use the builtin toJSON meth
 
 License questions
 -----------
-Q. What license is this under?
 
-A. AGPL-3, check the LICENSE file.
+**Q - What license is this under?**
+
+A - AGPL-3, check the LICENSE file.
 
 
-Q. I have spent the past month building a webbased text editing app. I am in stealth
+**Q - I have spent the past month building a webbased text editing app. I am in stealth
 mode as my editor is really unique and I'll be the next IT Billionaire once I
 release it. Now I would like to use this library, but the AGPL requires me to share
-changes I make with others! It's not fair that you are standing between me and my fortune!
+changes I make with others! It's not fair that you are standing between me and my fortune!**
 
-A. Right. If it is worth that much to you, you can try to pay me so that I'll put it under
+A - Right. If it is worth that much to you, you can try to pay me so that I'll put it under
 a more liberal license. Secondly, you could suggest taking over maintainership of this
 library and promise extra features to get me to change my mind. Thirdly - you could just
 start from scratch as long as it's not much code, but then we both lose out of any fixes
