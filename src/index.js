@@ -1,6 +1,10 @@
 import {Schema} from "prosemirror-model"
 import {Step, Transform} from "prosemirror-transform"
 
+export const create_doc = (doc_data, schema_spec) => {
+    const schema = new Schema(schema_spec)
+    return schema.nodeFromJSON(doc_data)
+}
 
 export const transform_doc = (steps_data, doc) => {
     const schema = doc.type.schema
@@ -8,9 +12,4 @@ export const transform_doc = (steps_data, doc) => {
     const transform = new Transform(doc)
     steps.forEach(step => transform.step(step))
     return transform.doc
-}
-
-export const create_doc = (doc_data, schema_spec) => {
-    const schema = new Schema(schema_spec)
-    return schema.nodeFromJSON(doc_data)
 }

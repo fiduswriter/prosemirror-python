@@ -1,7 +1,8 @@
 /lib
 /dist
-/prosemirror
 /venv
 /node_modules
+/prosemirror/js_lib.py
 *.egg-info
 package-lock.json
+*.pyc
