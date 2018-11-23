@@ -22,7 +22,7 @@ How to use
 
 Then create a Document object:
 
-    doc = create_doc(doc_data, schema_spec)
+    doc = create_doc(doc_data, spec_data) # spec_data = JSON.parse(JSON.stringify(view.state.schema.spec))
 
 
 Thereafter create an updated Document object with the given steps applied:
