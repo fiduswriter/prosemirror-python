@@ -8,7 +8,7 @@ This package does not attempt at importing all of Prosemirror in Python. It is m
 prosemirror-model and prosemirror-transform that are needed for serverside operations.
 
 
-**This package has not yet been tested!**
+**This package has not yet been extensively tested!**
 
 How to use
 -----------
