@@ -20,16 +20,16 @@ How to use
 
     from prosemirror import create_doc, transform_doc
 
-Then create a Document object:
+3. Then create a Document object:
 
     doc = create_doc(doc_data, spec_data) # spec_data = JSON.parse(JSON.stringify(view.state.schema.spec))
 
 
-Thereafter create an updated Document object with the given steps applied:
+4. Thereafter create an updated Document object with the given steps applied:
 
     updated_doc = transform_doc(steps_data, doc)
 
-To get the JSON version of a Document object, simply use the builtin toJSON method:
+5. To get the JSON version of a Document object, simply use the builtin toJSON method:
 
     updated_doc.toJSON()
 
