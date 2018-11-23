@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "rollup src/index.js --config  --output.format iife --name prosemirror --output.file lib/index.js"
+    "bundle": "rollup src/index.js --config  --output.format umd --name prosemirror --output.file lib/index.js"
   },
   "keywords": [
     "Python"
