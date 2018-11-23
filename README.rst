@@ -10,7 +10,7 @@ prosemirror-model and prosemirror-transform that are needed for serverside opera
 
 **This package has not yet been extensively tested!**
 
-How to use
+How to use it
 -----------
 
 1. Install with `pip install prosemirror`
@@ -33,6 +33,19 @@ How to use
 
     updated_doc.toJSON()
 
+
+Speed
+-----------
+
+It is not setting any speed records so far. These tests were conducted with Python 2 with the test files in the repo (applying three steps to an existing doc):
+
+    prosemirror-python: 0.024s
+    
+    nodejs: 0.00013s
+    
+    jsonpatch (Python): 0.00024s
+
+So it is around 200 times slower than nodejs and 100 times slower than using jsonpatch. It is possible that it could be sped up in various ways, for example by using pypy and a vm or alike. Please let me know if you figure something out!
 
 License questions
 -----------
