@@ -24,7 +24,7 @@ start = time.time()
 
 for i in a:
     new_doc = transform_doc(step_data, doc)
-#new_doc.toJSON()
+new_doc.toJSON()
 
 stop = time.time()
 
