@@ -28,7 +28,7 @@ setup(
     license='AGPL License',
     description='Python translation of prosemirror parts needed to modify a document in Python',
     long_description=README,
-    url='https://www.github.org/fiduswriter/prosemirror-python',
+    url='https://www.github.com/fiduswriter/prosemirror-python',
     author='Johannes Wilm',
     author_email='johannes@fiduswriter.org',
     classifiers=[
